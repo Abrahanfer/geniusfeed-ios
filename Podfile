@@ -7,9 +7,14 @@ target 'GeniusFeed' do
 
   # Pods for GeniusFeed
 
+  target 'GeniusFeed [DEV]' do
+    inherit! :search_paths
+
+    pod 'SwiftLint'
+  end
 
   target 'GeniusFeedTests' do
-    inherit! :search_paths
+
     # Pods for testing
   end
 

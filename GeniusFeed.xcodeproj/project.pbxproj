@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5A2F2621EAD9A48872934D /* Pods_GeniusFeed__DEV_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29110F56E3F366899F8D40CA /* Pods_GeniusFeed__DEV_.framework */; };
+		2A57C9E400BFC737B6569ACC /* Pods_GeniusFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3882FC77E5A5A5E6CA415F5 /* Pods_GeniusFeedUITests.framework */; };
 		599FFE7A1EA0DDDA00E56984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE791EA0DDDA00E56984 /* AppDelegate.swift */; };
 		599FFE7C1EA0DDDA00E56984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE7B1EA0DDDA00E56984 /* ViewController.swift */; };
 		599FFE7F1EA0DDDA00E56984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE7D1EA0DDDA00E56984 /* Main.storyboard */; };
@@ -14,6 +16,15 @@
 		599FFE841EA0DDDA00E56984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE821EA0DDDA00E56984 /* LaunchScreen.storyboard */; };
 		599FFE8F1EA0DDDB00E56984 /* GeniusFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE8E1EA0DDDB00E56984 /* GeniusFeedTests.swift */; };
 		599FFE9A1EA0DDDB00E56984 /* GeniusFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE991EA0DDDB00E56984 /* GeniusFeedUITests.swift */; };
+		59C515381EA0EC9B003BEEF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE7B1EA0DDDA00E56984 /* ViewController.swift */; };
+		59C515391EA0EC9B003BEEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE791EA0DDDA00E56984 /* AppDelegate.swift */; };
+		59C5153B1EA0EC9B003BEEF7 /* Pods_GeniusFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963E9B817ED2284001C6D139 /* Pods_GeniusFeed.framework */; };
+		59C5153D1EA0EC9B003BEEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE821EA0DDDA00E56984 /* LaunchScreen.storyboard */; };
+		59C5153E1EA0EC9B003BEEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE801EA0DDDA00E56984 /* Assets.xcassets */; };
+		59C5153F1EA0EC9B003BEEF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE7D1EA0DDDA00E56984 /* Main.storyboard */; };
+		5B805677319BF47B7C20B054 /* Pods_GeniusFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963E9B817ED2284001C6D139 /* Pods_GeniusFeed.framework */; };
+		8B9CBD3877A46B72D3574D90 /* Pods_GeniusFeed_GeniusFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C34BDCFFADBEE31CC59693A /* Pods_GeniusFeed_GeniusFeedTests.framework */; };
+		C878308C6BDFF61FD4100D3B /* Pods_GeniusFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3E86D081B626155B433312 /* Pods_GeniusFeedTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9D17F5C3D83824E04E7E74 /* Pods-GeniusFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeed/Pods-GeniusFeed.release.xcconfig"; sourceTree = "<group>"; };
+		29110F56E3F366899F8D40CA /* Pods_GeniusFeed__DEV_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusFeed__DEV_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		500436659A46DFB77E706812 /* Pods-GeniusFeed [DEV].release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeed [DEV].release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeed [DEV]/Pods-GeniusFeed [DEV].release.xcconfig"; sourceTree = "<group>"; };
+		5014B5BD2A13E65017E13EED /* Pods-GeniusFeed-GeniusFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeed-GeniusFeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeed-GeniusFeedTests/Pods-GeniusFeed-GeniusFeedTests.release.xcconfig"; sourceTree = "<group>"; };
 		599FFE761EA0DDDA00E56984 /* GeniusFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		599FFE791EA0DDDA00E56984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		599FFE7B1EA0DDDA00E56984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,19 @@
 		599FFE951EA0DDDB00E56984 /* GeniusFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		599FFE991EA0DDDB00E56984 /* GeniusFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusFeedUITests.swift; sourceTree = "<group>"; };
 		599FFE9B1EA0DDDB00E56984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C515461EA0EC9B003BEEF7 /* GeniusFeed [DEV].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeniusFeed [DEV].app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C515471EA0EC9C003BEEF7 /* GeniusFeed [DEV]-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GeniusFeed [DEV]-Info.plist"; path = "/Users/abrahanfer/Documents/GeniusFeediOS/geniusfeed-ios/GeniusFeed [DEV]-Info.plist"; sourceTree = "<absolute>"; };
+		8E3E86D081B626155B433312 /* Pods_GeniusFeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusFeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		963E9B817ED2284001C6D139 /* Pods_GeniusFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF42A2157F6CBE93FAE9378 /* Pods-GeniusFeed-GeniusFeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeed-GeniusFeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeed-GeniusFeedTests/Pods-GeniusFeed-GeniusFeedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C34BDCFFADBEE31CC59693A /* Pods_GeniusFeed_GeniusFeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusFeed_GeniusFeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3882FC77E5A5A5E6CA415F5 /* Pods_GeniusFeedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusFeedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DAF3811226C863F771D538 /* Pods-GeniusFeedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeedUITests/Pods-GeniusFeedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D018F7E577A53A777A9D1B74 /* Pods-GeniusFeed [DEV].debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeed [DEV].debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeed [DEV]/Pods-GeniusFeed [DEV].debug.xcconfig"; sourceTree = "<group>"; };
+		D3E840FBCCDD7BDD6ACF94B4 /* Pods-GeniusFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeedTests/Pods-GeniusFeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA71F2F232CB0CFBD48796BF /* Pods-GeniusFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeed/Pods-GeniusFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAD2B5B10E49DB3F0477AB8 /* Pods-GeniusFeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeedTests/Pods-GeniusFeedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8B97E8AB489609137C15058 /* Pods-GeniusFeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeedUITests/Pods-GeniusFeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B805677319BF47B7C20B054 /* Pods_GeniusFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C878308C6BDFF61FD4100D3B /* Pods_GeniusFeedTests.framework in Frameworks */,
+				8B9CBD3877A46B72D3574D90 /* Pods_GeniusFeed_GeniusFeedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +99,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A57C9E400BFC737B6569ACC /* Pods_GeniusFeedUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C5153A1EA0EC9B003BEEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C5153B1EA0EC9B003BEEF7 /* Pods_GeniusFeed.framework in Frameworks */,
+				1F5A2F2621EAD9A48872934D /* Pods_GeniusFeed__DEV_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +122,9 @@
 				599FFE8D1EA0DDDB00E56984 /* GeniusFeedTests */,
 				599FFE981EA0DDDB00E56984 /* GeniusFeedUITests */,
 				599FFE771EA0DDDA00E56984 /* Products */,
+				8202A33465EE5E1A58A2B140 /* Pods */,
+				698BD77F91F212AFD131FFDB /* Frameworks */,
+				59C515471EA0EC9C003BEEF7 /* GeniusFeed [DEV]-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +134,7 @@
 				599FFE761EA0DDDA00E56984 /* GeniusFeed.app */,
 				599FFE8A1EA0DDDB00E56984 /* GeniusFeedTests.xctest */,
 				599FFE951EA0DDDB00E56984 /* GeniusFeedUITests.xctest */,
+				59C515461EA0EC9B003BEEF7 /* GeniusFeed [DEV].app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +170,35 @@
 			path = GeniusFeedUITests;
 			sourceTree = "<group>";
 		};
+		698BD77F91F212AFD131FFDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				963E9B817ED2284001C6D139 /* Pods_GeniusFeed.framework */,
+				8E3E86D081B626155B433312 /* Pods_GeniusFeedTests.framework */,
+				B3882FC77E5A5A5E6CA415F5 /* Pods_GeniusFeedUITests.framework */,
+				29110F56E3F366899F8D40CA /* Pods_GeniusFeed__DEV_.framework */,
+				9C34BDCFFADBEE31CC59693A /* Pods_GeniusFeed_GeniusFeedTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8202A33465EE5E1A58A2B140 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA71F2F232CB0CFBD48796BF /* Pods-GeniusFeed.debug.xcconfig */,
+				0E9D17F5C3D83824E04E7E74 /* Pods-GeniusFeed.release.xcconfig */,
+				EBAD2B5B10E49DB3F0477AB8 /* Pods-GeniusFeedTests.debug.xcconfig */,
+				D3E840FBCCDD7BDD6ACF94B4 /* Pods-GeniusFeedTests.release.xcconfig */,
+				F8B97E8AB489609137C15058 /* Pods-GeniusFeedUITests.debug.xcconfig */,
+				B6DAF3811226C863F771D538 /* Pods-GeniusFeedUITests.release.xcconfig */,
+				D018F7E577A53A777A9D1B74 /* Pods-GeniusFeed [DEV].debug.xcconfig */,
+				500436659A46DFB77E706812 /* Pods-GeniusFeed [DEV].release.xcconfig */,
+				9AF42A2157F6CBE93FAE9378 /* Pods-GeniusFeed-GeniusFeedTests.debug.xcconfig */,
+				5014B5BD2A13E65017E13EED /* Pods-GeniusFeed-GeniusFeedTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 599FFE9E1EA0DDDB00E56984 /* Build configuration list for PBXNativeTarget "GeniusFeed" */;
 			buildPhases = (
+				40D0C26F41CBCBF0A63308CC /* [CP] Check Pods Manifest.lock */,
 				599FFE721EA0DDDA00E56984 /* Sources */,
 				599FFE731EA0DDDA00E56984 /* Frameworks */,
 				599FFE741EA0DDDA00E56984 /* Resources */,
+				3C32997B2C8C5E119088AF9C /* [CP] Embed Pods Frameworks */,
+				758FE2E950D9DE5273BE4B6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 599FFEA11EA0DDDB00E56984 /* Build configuration list for PBXNativeTarget "GeniusFeedTests" */;
 			buildPhases = (
+				88B2E2ED7F6390D203DEA73A /* [CP] Check Pods Manifest.lock */,
 				599FFE861EA0DDDB00E56984 /* Sources */,
 				599FFE871EA0DDDB00E56984 /* Frameworks */,
 				599FFE881EA0DDDB00E56984 /* Resources */,
+				2E381EBF4A738A236F43A3C3 /* [CP] Embed Pods Frameworks */,
+				A4F3F3ADE24D0D74AD3221DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 599FFEA41EA0DDDB00E56984 /* Build configuration list for PBXNativeTarget "GeniusFeedUITests" */;
 			buildPhases = (
+				B190A50DCD73BB260DD53AEE /* [CP] Check Pods Manifest.lock */,
 				599FFE911EA0DDDB00E56984 /* Sources */,
 				599FFE921EA0DDDB00E56984 /* Frameworks */,
 				599FFE931EA0DDDB00E56984 /* Resources */,
+				0653B119784B32A0F5738258 /* [CP] Embed Pods Frameworks */,
+				E0D655C1E3684BC8EED4EB3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +263,27 @@
 			productName = GeniusFeedUITests;
 			productReference = 599FFE951EA0DDDB00E56984 /* GeniusFeedUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		59C515351EA0EC9B003BEEF7 /* GeniusFeed [DEV] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C515431EA0EC9B003BEEF7 /* Build configuration list for PBXNativeTarget "GeniusFeed [DEV]" */;
+			buildPhases = (
+				59C515361EA0EC9B003BEEF7 /* [CP] Check Pods Manifest.lock */,
+				59C515371EA0EC9B003BEEF7 /* Sources */,
+				59C5153A1EA0EC9B003BEEF7 /* Frameworks */,
+				59C5153C1EA0EC9B003BEEF7 /* Resources */,
+				59C515401EA0EC9B003BEEF7 /* [CP] Embed Pods Frameworks */,
+				59C515411EA0EC9B003BEEF7 /* [CP] Copy Pods Resources */,
+				59C515421EA0EC9B003BEEF7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeniusFeed [DEV]";
+			productName = GeniusFeed;
+			productReference = 59C515461EA0EC9B003BEEF7 /* GeniusFeed [DEV].app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -221,6 +325,7 @@
 			projectRoot = "";
 			targets = (
 				599FFE751EA0DDDA00E56984 /* GeniusFeed */,
+				59C515351EA0EC9B003BEEF7 /* GeniusFeed [DEV] */,
 				599FFE891EA0DDDB00E56984 /* GeniusFeedTests */,
 				599FFE941EA0DDDB00E56984 /* GeniusFeedUITests */,
 			);
@@ -252,7 +357,213 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59C5153C1EA0EC9B003BEEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C5153D1EA0EC9B003BEEF7 /* LaunchScreen.storyboard in Resources */,
+				59C5153E1EA0EC9B003BEEF7 /* Assets.xcassets in Resources */,
+				59C5153F1EA0EC9B003BEEF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0653B119784B32A0F5738258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeedUITests/Pods-GeniusFeedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E381EBF4A738A236F43A3C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeed-GeniusFeedTests/Pods-GeniusFeed-GeniusFeedTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C32997B2C8C5E119088AF9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeed/Pods-GeniusFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40D0C26F41CBCBF0A63308CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59C515361EA0EC9B003BEEF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59C515401EA0EC9B003BEEF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeed [DEV]/Pods-GeniusFeed [DEV]-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C515411EA0EC9B003BEEF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeed [DEV]/Pods-GeniusFeed [DEV]-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C515421EA0EC9B003BEEF7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		758FE2E950D9DE5273BE4B6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeed/Pods-GeniusFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88B2E2ED7F6390D203DEA73A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F3F3ADE24D0D74AD3221DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeed-GeniusFeedTests/Pods-GeniusFeed-GeniusFeedTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B190A50DCD73BB260DD53AEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D655C1E3684BC8EED4EB3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeedUITests/Pods-GeniusFeedUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		599FFE721EA0DDDA00E56984 /* Sources */ = {
@@ -277,6 +588,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				599FFE9A1EA0DDDB00E56984 /* GeniusFeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C515371EA0EC9B003BEEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C515381EA0EC9B003BEEF7 /* ViewController.swift in Sources */,
+				59C515391EA0EC9B003BEEF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +730,7 @@
 		};
 		599FFE9F1EA0DDDB00E56984 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA71F2F232CB0CFBD48796BF /* Pods-GeniusFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeniusFeed/Info.plist;
@@ -422,6 +743,7 @@
 		};
 		599FFEA01EA0DDDB00E56984 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9D17F5C3D83824E04E7E74 /* Pods-GeniusFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GeniusFeed/Info.plist;
@@ -434,6 +756,7 @@
 		};
 		599FFEA21EA0DDDB00E56984 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF42A2157F6CBE93FAE9378 /* Pods-GeniusFeed-GeniusFeedTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +771,7 @@
 		};
 		599FFEA31EA0DDDB00E56984 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5014B5BD2A13E65017E13EED /* Pods-GeniusFeed-GeniusFeedTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +786,7 @@
 		};
 		599FFEA51EA0DDDB00E56984 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B97E8AB489609137C15058 /* Pods-GeniusFeedUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GeniusFeedUITests/Info.plist;
@@ -475,6 +800,7 @@
 		};
 		599FFEA61EA0DDDB00E56984 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DAF3811226C863F771D538 /* Pods-GeniusFeedUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GeniusFeedUITests/Info.plist;
@@ -483,6 +809,32 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = GeniusFeed;
+			};
+			name = Release;
+		};
+		59C515441EA0EC9B003BEEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D018F7E577A53A777A9D1B74 /* Pods-GeniusFeed [DEV].debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/GeniusFeed [DEV]-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.me.GeniusFeedDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		59C515451EA0EC9B003BEEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 500436659A46DFB77E706812 /* Pods-GeniusFeed [DEV].release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/GeniusFeed [DEV]-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.me.GeniusFeedDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -505,6 +857,7 @@
 				599FFEA01EA0DDDB00E56984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		599FFEA11EA0DDDB00E56984 /* Build configuration list for PBXNativeTarget "GeniusFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +866,7 @@
 				599FFEA31EA0DDDB00E56984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		599FFEA41EA0DDDB00E56984 /* Build configuration list for PBXNativeTarget "GeniusFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +875,16 @@
 				599FFEA61EA0DDDB00E56984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C515431EA0EC9B003BEEF7 /* Build configuration list for PBXNativeTarget "GeniusFeed [DEV]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C515441EA0EC9B003BEEF7 /* Debug */,
+				59C515451EA0EC9B003BEEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
