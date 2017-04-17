@@ -6,6 +6,7 @@ target 'GeniusFeed' do
   use_frameworks!
 
   # Pods for GeniusFeed
+  pod 'LayoutKit'
 
   target 'GeniusFeed [DEV]' do
     inherit! :search_paths
