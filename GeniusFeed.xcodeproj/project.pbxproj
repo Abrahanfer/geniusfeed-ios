@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		1F5A2F2621EAD9A48872934D /* Pods_GeniusFeed__DEV_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29110F56E3F366899F8D40CA /* Pods_GeniusFeed__DEV_.framework */; };
 		2A57C9E400BFC737B6569ACC /* Pods_GeniusFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3882FC77E5A5A5E6CA415F5 /* Pods_GeniusFeedUITests.framework */; };
+		5992CC7E1EA531C600D0DDDD /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5992CC7D1EA531C600D0DDDD /* LoginPresenter.swift */; };
+		5992CC7F1EA531C600D0DDDD /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5992CC7D1EA531C600D0DDDD /* LoginPresenter.swift */; };
+		5992CC811EA5322500D0DDDD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5992CC801EA5322500D0DDDD /* LoginView.swift */; };
+		5992CC821EA5322500D0DDDD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5992CC801EA5322500D0DDDD /* LoginView.swift */; };
 		599FFE7A1EA0DDDA00E56984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE791EA0DDDA00E56984 /* AppDelegate.swift */; };
 		599FFE7C1EA0DDDA00E56984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE7B1EA0DDDA00E56984 /* ViewController.swift */; };
 		599FFE7F1EA0DDDA00E56984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE7D1EA0DDDA00E56984 /* Main.storyboard */; };
 		599FFE811EA0DDDA00E56984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE801EA0DDDA00E56984 /* Assets.xcassets */; };
 		599FFE841EA0DDDA00E56984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE821EA0DDDA00E56984 /* LaunchScreen.storyboard */; };
-		599FFE8F1EA0DDDB00E56984 /* GeniusFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE8E1EA0DDDB00E56984 /* GeniusFeedTests.swift */; };
+		599FFE8F1EA0DDDB00E56984 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE8E1EA0DDDB00E56984 /* LoginTests.swift */; };
 		599FFE9A1EA0DDDB00E56984 /* GeniusFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE991EA0DDDB00E56984 /* GeniusFeedUITests.swift */; };
 		59C515381EA0EC9B003BEEF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE7B1EA0DDDA00E56984 /* ViewController.swift */; };
 		59C515391EA0EC9B003BEEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FFE791EA0DDDA00E56984 /* AppDelegate.swift */; };
@@ -22,6 +26,12 @@
 		59C5153D1EA0EC9B003BEEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE821EA0DDDA00E56984 /* LaunchScreen.storyboard */; };
 		59C5153E1EA0EC9B003BEEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE801EA0DDDA00E56984 /* Assets.xcassets */; };
 		59C5153F1EA0EC9B003BEEF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599FFE7D1EA0DDDA00E56984 /* Main.storyboard */; };
+		59ED76681EA7D0AD00DE6B61 /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ED76671EA7D0AD00DE6B61 /* LoginWireframe.swift */; };
+		59ED76691EA7D12200DE6B61 /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ED76671EA7D0AD00DE6B61 /* LoginWireframe.swift */; };
+		59ED766B1EA7D29800DE6B61 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ED766A1EA7D29800DE6B61 /* LoginInteractor.swift */; };
+		59ED766C1EA7D29800DE6B61 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ED766A1EA7D29800DE6B61 /* LoginInteractor.swift */; };
+		59ED766E1EA7DE2F00DE6B61 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ED766D1EA7DE2F00DE6B61 /* DataManager.swift */; };
+		59ED766F1EA7DE2F00DE6B61 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ED766D1EA7DE2F00DE6B61 /* DataManager.swift */; };
 		5B805677319BF47B7C20B054 /* Pods_GeniusFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963E9B817ED2284001C6D139 /* Pods_GeniusFeed.framework */; };
 		8B9CBD3877A46B72D3574D90 /* Pods_GeniusFeed_GeniusFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C34BDCFFADBEE31CC59693A /* Pods_GeniusFeed_GeniusFeedTests.framework */; };
 		C878308C6BDFF61FD4100D3B /* Pods_GeniusFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3E86D081B626155B433312 /* Pods_GeniusFeedTests.framework */; };
@@ -49,6 +59,8 @@
 		29110F56E3F366899F8D40CA /* Pods_GeniusFeed__DEV_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusFeed__DEV_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		500436659A46DFB77E706812 /* Pods-GeniusFeed [DEV].release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeed [DEV].release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeed [DEV]/Pods-GeniusFeed [DEV].release.xcconfig"; sourceTree = "<group>"; };
 		5014B5BD2A13E65017E13EED /* Pods-GeniusFeed-GeniusFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeed-GeniusFeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeed-GeniusFeedTests/Pods-GeniusFeed-GeniusFeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		5992CC7D1EA531C600D0DDDD /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		5992CC801EA5322500D0DDDD /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		599FFE761EA0DDDA00E56984 /* GeniusFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		599FFE791EA0DDDA00E56984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		599FFE7B1EA0DDDA00E56984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,13 +69,16 @@
 		599FFE831EA0DDDA00E56984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		599FFE851EA0DDDA00E56984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		599FFE8A1EA0DDDB00E56984 /* GeniusFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		599FFE8E1EA0DDDB00E56984 /* GeniusFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusFeedTests.swift; sourceTree = "<group>"; };
+		599FFE8E1EA0DDDB00E56984 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		599FFE901EA0DDDB00E56984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		599FFE951EA0DDDB00E56984 /* GeniusFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		599FFE991EA0DDDB00E56984 /* GeniusFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusFeedUITests.swift; sourceTree = "<group>"; };
 		599FFE9B1EA0DDDB00E56984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59C515461EA0EC9B003BEEF7 /* GeniusFeed [DEV].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeniusFeed [DEV].app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C515471EA0EC9C003BEEF7 /* GeniusFeed [DEV]-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GeniusFeed [DEV]-Info.plist"; path = "/Users/abrahanfer/Documents/GeniusFeediOS/geniusfeed-ios/GeniusFeed [DEV]-Info.plist"; sourceTree = "<absolute>"; };
+		59ED76671EA7D0AD00DE6B61 /* LoginWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
+		59ED766A1EA7D29800DE6B61 /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		59ED766D1EA7DE2F00DE6B61 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		8E3E86D081B626155B433312 /* Pods_GeniusFeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusFeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		963E9B817ED2284001C6D139 /* Pods_GeniusFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF42A2157F6CBE93FAE9378 /* Pods-GeniusFeed-GeniusFeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusFeed-GeniusFeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusFeed-GeniusFeedTests/Pods-GeniusFeed-GeniusFeedTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +130,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5992CC7C1EA52EC800D0DDDD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				59ED76671EA7D0AD00DE6B61 /* LoginWireframe.swift */,
+				5992CC7D1EA531C600D0DDDD /* LoginPresenter.swift */,
+				5992CC801EA5322500D0DDDD /* LoginView.swift */,
+				59ED766A1EA7D29800DE6B61 /* LoginInteractor.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		599FFE6D1EA0DDDA00E56984 = {
 			isa = PBXGroup;
 			children = (
@@ -142,12 +168,14 @@
 		599FFE781EA0DDDA00E56984 /* GeniusFeed */ = {
 			isa = PBXGroup;
 			children = (
+				5992CC7C1EA52EC800D0DDDD /* Login */,
 				599FFE791EA0DDDA00E56984 /* AppDelegate.swift */,
 				599FFE7B1EA0DDDA00E56984 /* ViewController.swift */,
 				599FFE7D1EA0DDDA00E56984 /* Main.storyboard */,
 				599FFE801EA0DDDA00E56984 /* Assets.xcassets */,
 				599FFE821EA0DDDA00E56984 /* LaunchScreen.storyboard */,
 				599FFE851EA0DDDA00E56984 /* Info.plist */,
+				59ED766D1EA7DE2F00DE6B61 /* DataManager.swift */,
 			);
 			path = GeniusFeed;
 			sourceTree = "<group>";
@@ -155,7 +183,7 @@
 		599FFE8D1EA0DDDB00E56984 /* GeniusFeedTests */ = {
 			isa = PBXGroup;
 			children = (
-				599FFE8E1EA0DDDB00E56984 /* GeniusFeedTests.swift */,
+				599FFE8E1EA0DDDB00E56984 /* LoginTests.swift */,
 				599FFE901EA0DDDB00E56984 /* Info.plist */,
 			);
 			path = GeniusFeedTests;
@@ -309,6 +337,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 599FFE751EA0DDDA00E56984;
 					};
+					59C515351EA0EC9B003BEEF7 = {
+						DevelopmentTeam = N8475XUMV3;
+					};
 				};
 			};
 			buildConfigurationList = 599FFE711EA0DDDA00E56984 /* Build configuration list for PBXProject "GeniusFeed" */;
@@ -397,7 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeed-GeniusFeedTests/Pods-GeniusFeed-GeniusFeedTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeedTests/Pods-GeniusFeedTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3C32997B2C8C5E119088AF9C /* [CP] Embed Pods Frameworks */ = {
@@ -530,7 +561,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeed-GeniusFeedTests/Pods-GeniusFeed-GeniusFeedTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusFeedTests/Pods-GeniusFeedTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B190A50DCD73BB260DD53AEE /* [CP] Check Pods Manifest.lock */ = {
@@ -570,7 +601,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5992CC7E1EA531C600D0DDDD /* LoginPresenter.swift in Sources */,
 				599FFE7C1EA0DDDA00E56984 /* ViewController.swift in Sources */,
+				59ED766B1EA7D29800DE6B61 /* LoginInteractor.swift in Sources */,
+				59ED766E1EA7DE2F00DE6B61 /* DataManager.swift in Sources */,
+				5992CC811EA5322500D0DDDD /* LoginView.swift in Sources */,
+				59ED76681EA7D0AD00DE6B61 /* LoginWireframe.swift in Sources */,
 				599FFE7A1EA0DDDA00E56984 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,7 +615,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599FFE8F1EA0DDDB00E56984 /* GeniusFeedTests.swift in Sources */,
+				599FFE8F1EA0DDDB00E56984 /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +631,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59ED76691EA7D12200DE6B61 /* LoginWireframe.swift in Sources */,
+				5992CC7F1EA531C600D0DDDD /* LoginPresenter.swift in Sources */,
+				59ED766C1EA7D29800DE6B61 /* LoginInteractor.swift in Sources */,
+				59ED766F1EA7DE2F00DE6B61 /* DataManager.swift in Sources */,
 				59C515381EA0EC9B003BEEF7 /* ViewController.swift in Sources */,
+				5992CC821EA5322500D0DDDD /* LoginView.swift in Sources */,
 				59C515391EA0EC9B003BEEF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -756,7 +797,7 @@
 		};
 		599FFEA21EA0DDDB00E56984 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AF42A2157F6CBE93FAE9378 /* Pods-GeniusFeed-GeniusFeedTests.debug.xcconfig */;
+			baseConfigurationReference = EBAD2B5B10E49DB3F0477AB8 /* Pods-GeniusFeedTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -771,7 +812,7 @@
 		};
 		599FFEA31EA0DDDB00E56984 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5014B5BD2A13E65017E13EED /* Pods-GeniusFeed-GeniusFeedTests.release.xcconfig */;
+			baseConfigurationReference = D3E840FBCCDD7BDD6ACF94B4 /* Pods-GeniusFeedTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -817,6 +858,7 @@
 			baseConfigurationReference = D018F7E577A53A777A9D1B74 /* Pods-GeniusFeed [DEV].debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N8475XUMV3;
 				INFOPLIST_FILE = "$(SRCROOT)/GeniusFeed [DEV]-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.me.GeniusFeedDev;
@@ -830,6 +872,7 @@
 			baseConfigurationReference = 500436659A46DFB77E706812 /* Pods-GeniusFeed [DEV].release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N8475XUMV3;
 				INFOPLIST_FILE = "$(SRCROOT)/GeniusFeed [DEV]-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.me.GeniusFeedDev;

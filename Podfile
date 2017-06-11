@@ -6,7 +6,7 @@ target 'GeniusFeed' do
   use_frameworks!
 
   # Pods for GeniusFeed
-  pod 'LayoutKit'
+  pod 'PromiseKit'
 
   target 'GeniusFeed [DEV]' do
     inherit! :search_paths
@@ -15,8 +15,8 @@ target 'GeniusFeed' do
   end
 
   target 'GeniusFeedTests' do
-
     # Pods for testing
+    inherit! :search_paths
   end
 
   target 'GeniusFeedUITests' do
